@@ -15,6 +15,10 @@ const burger = (props) => {
         return accumulator.concat(nextEle);
     }, []);
 
+    if (transformedIngredients.length === 0){
+        transformedIngredients = <p>Please start adding the ingredients</p>
+    }
+
     return(
         <div className={classes.Burger}>
             <BurgerIngredient type="bread-top"/>
