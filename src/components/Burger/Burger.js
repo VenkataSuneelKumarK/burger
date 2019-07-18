@@ -6,11 +6,19 @@ import classes from './Burger.module.css';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 
 const burger = (props) => {
-    return(<div className={classes.Burger}>
-                <BurgerIngredient type="bread-top"/>
-                <BurgerIngredient type="cheese"/>
-                <BurgerIngredient type="meat"/>
-                <BurgerIngredient type="bread-bottom"/>
-    </div>);
+    let ingredient = Object.keys(props.ingredients).map(ingreKey=> (
+        [...Array(props.ingredients[ingreKey])].map( (value, i) => (
+            <BurgerIngredient type={ingreKey} key={ingreKey + i}/>
+        ))
+        )
+    );
+
+    return(
+        <div className={classes.Burger}>
+            <BurgerIngredient type="bread-top"/>
+                {ingredient}
+            <BurgerIngredient type="bread-bottom"/>
+        </div>
+    );
 };
 export default burger;
