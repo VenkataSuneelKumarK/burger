@@ -23,6 +23,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControl/BuildControl.module.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.module.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/components/Burger/Burger.js">
           <value>
             <set />
@@ -59,6 +79,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.module.css">
           <value>
             <set />
           </value>

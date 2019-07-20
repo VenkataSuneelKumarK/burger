@@ -1,0 +1,8 @@
+.Price{
+    margin: 2px auto;
+    width: 100px;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
+    border-radius: 3px;
+    padding: 5px 0px 5px 42px;
+}
