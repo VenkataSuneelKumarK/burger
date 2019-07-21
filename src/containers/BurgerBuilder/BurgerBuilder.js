@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import Aux from "../../HOC/Aux";
 import Burger from "../../components/Burger/Burger";
-import BurgerControl from "../../components/Burger/BuildControls/BuildControls";
+import BurgerControls from "../../components/Burger/BuildControls/BuildControls";
 import classes from "./BurgerBuilder.module.css";
 
 const IngredientsPrices = {
@@ -59,12 +59,18 @@ class BurgerBuilder extends Component{
     };
 
     render(){
+        const disableInfo = {
+            ...this.state.ingredients
+        };
+        for(let key in disableInfo){
+            disableInfo[key] = disableInfo[key] <=0;
+        }
         return (
             <Aux>
                 <Burger ingredients={this.state.ingredients}/>
                 <div className={classes.Price}>Price : {this.state.totalPrice}</div>
 
-                <BurgerControl more={this.addIngredients} less={this.removeIngredients}></BurgerControl>
+                <BurgerControls more={this.addIngredients} less={this.removeIngredients} disableInfo={disableInfo}></BurgerControls>
             </Aux>
         )
     }

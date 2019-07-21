@@ -19,7 +19,8 @@ const buildControls = (props) => (
             type={control.type}
             key={control.label}
             less={props.less}
-            more={props.more}/>)}
+            more={props.more}
+            disableIng={props.disableInfo[control.type]}/>)}
     </div>
 );
 
