@@ -3,14 +3,15 @@
  */
 import React, {Component} from 'react';
 import Button from '../../../components/UI/Button/Button';
-import Aux from '../../../../src/HOC/Aux'
+import Aux from '../../../HOC/Aux/Aux'
 class OrderSummary extends Component{
+    componentWillUpdate(){
+        console.log("[OrderSummary]: will update");
+    };
+    componentDidUpdate(){
+        console.log("[OrderSummary]: did update");
+    };
     render(){
-
-        // componentWillUpdate(){
-        //     console.log("[OrderSummary]: will update");
-        // };
-
         const ingredientsSummary = Object.keys(this.props.ingredients).map((igKey) =>
             {
                 return <li key={igKey}><span style={{textTransform: 'capitalize'}}>{igKey}</span>:<span>{this.props.ingredients[igKey]}</span></li>

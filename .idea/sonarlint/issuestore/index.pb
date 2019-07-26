@@ -39,10 +39,6 @@ b
 -src/containers/BurgerBuilder/BurgerBuilder.js,e/9/e9b70685712b86a9336a8a41d6f4becc550343eb
 S
 #src/components/Logo/Logo.module.css,5/f/5f9bbed541eaa50f39aee72555a120ebdf1cd6b0
-O
-src/components/Layout/Layout.js,a/3/a39dce0a5cc1e53785ace214d3d00a6dbf9fcabf
-W
-'src/components/Layout/Layout.module.css,4/4/4402d3cc6786e1d32062dd0e2ce5d2a4775f7256
 b
 2src/components/Navigation/SideDrawer/SideDrawer.js,5/2/52004474c5281870f14fc9082d82731856fd136c
 l
@@ -61,3 +57,14 @@ d
 4src/components/Navigation/ToolBar/ToolBar.module.css,2/3/23291776948418e9c3a748350fd931eadcfe2aa8
 \
 ,src/components/Navigation/ToolBar/ToolBar.js,c/6/c6020da1351a52903400f0105c7e5516404c1228
+y
+Isrc/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.module.css,1/2/12219de9083dace4975ffaab2c2cfa109ddbd3bd
+q
+Asrc/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.js,8/2/82e0c76f8c3826abf8c9fc54858c87561d9440a7
+B
+src/HOC/Aux/Aux.js,7/b/7b6f8e1cecfb916d8938f38d24911e6f06753959
+:
+
+src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+H
+src/HOC/Layout/Layout.js,1/0/10d16f90d5f8234b863dca1186f3a00e51e0b61c

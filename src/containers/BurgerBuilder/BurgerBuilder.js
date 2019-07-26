@@ -2,7 +2,7 @@
  * Created by kanamars on 18/07/19.
  */
 import React, {Component} from 'react';
-import Aux from "../../HOC/Aux";
+import Aux from "../../HOC/Aux/Aux";
 import Burger from "../../components/Burger/Burger";
 import BurgerControls from "../../components/Burger/BuildControls/BuildControls";
 import classes from "./BurgerBuilder.module.css";
