@@ -8,6 +8,66 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/App.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/App.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/axios.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/components/FullPost/FullPost.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/components/FullPost/FullPost.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/components/NewPost/NewPost.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/components/NewPost/NewPost.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/components/Post/Post.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/components/Post/Post.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/containers/Blog/Blog.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/containers/Blog/Blog.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/blogpost/src/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Projects/hydra-dev/src/node_modules/hydra-core/client/directives/Co.directive.insight.js">
           <value>
             <set />
@@ -34,6 +94,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/HOC/Layout/Layout.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/HOC/WithErrorHandler/WithErrorHandler.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/axios.js">
           <value>
             <set />
           </value>
@@ -189,6 +259,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/components/UI/Modal/Modal.module.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.module.css">
           <value>
             <set />
           </value>
