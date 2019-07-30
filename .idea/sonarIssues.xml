@@ -233,6 +233,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/Order/CheckoutSummary/CheckoutSummary.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/Order/CheckoutSummary/CheckoutSummary.module.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js">
           <value>
             <set />
@@ -283,7 +293,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/containers/Checkout/Checkout.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/index.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/index.js">
           <value>
             <set />
           </value>

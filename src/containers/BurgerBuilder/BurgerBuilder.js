@@ -103,37 +103,38 @@ class BurgerBuilder extends Component{
 
     purchaseContinueHandler = () => {
         // alert("Continue!");
-        this.setState({
-            loading:true
-        });
-        const order ={
-            ingredients: this.state.ingredients,
-            price: this.state.totalPrice,
-            customer: {
-                name: "Suneel",
-                address: {
-                    street : "pragathi nagar",
-                    zipcode: 123456,
-                    country: "india"
-                },
-                email: "test@test.com"
-            },
-            deliveryMethod: "fastest"
-        };
-        axios.post("/orders.json", order)
-            .then(response =>{
-                this.setState({
-                    loading:false,
-                    purchasing:false
-                });
-                console.log(response);
-            })
-            .catch(error => {
-                this.setState({
-                    loading:false
-                });
-                console.log(error);
-            })
+        // this.setState({
+        //     loading:true
+        // });
+        // const order ={
+        //     ingredients: this.state.ingredients,
+        //     price: this.state.totalPrice,
+        //     customer: {
+        //         name: "Suneel",
+        //         address: {
+        //             street : "pragathi nagar",
+        //             zipcode: 123456,
+        //             country: "india"
+        //         },
+        //         email: "test@test.com"
+        //     },
+        //     deliveryMethod: "fastest"
+        // };
+        // axios.post("/orders.json", order)
+        //     .then(response =>{
+        //         this.setState({
+        //             loading:false,
+        //             purchasing:false
+        //         });
+        //         console.log(response);
+        //     })
+        //     .catch(error => {
+        //         this.setState({
+        //             loading:false
+        //         });
+        //         console.log(error);
+        //     })
+        this.props.history.push("/Checkout");
     };
     render(){
         const disableInfo = {

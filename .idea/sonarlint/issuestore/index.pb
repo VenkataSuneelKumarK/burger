@@ -68,3 +68,11 @@ B
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 H
 src/HOC/Layout/Layout.js,1/0/10d16f90d5f8234b863dca1186f3a00e51e0b61c
+T
+$src/components/UI/Spinner/Spinner.js,9/b/9b168205d60b57142f96616491c2c461605e5e02
+\
+,src/components/UI/Spinner/Spinner.module.css,0/7/07c0dbd9be3749ce2a13bed0d7ffdf190f73113f
+<
+src/axios.js,c/c/cc8cca65f47d3eff0bce53fd6976a6794b8cf615
+\
+,src/HOC/WithErrorHandler/WithErrorHandler.js,d/d/ddb855ebe4a1450bfa6b3dfd169f609a712c2dca

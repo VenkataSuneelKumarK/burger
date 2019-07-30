@@ -16,7 +16,7 @@ const withErrorHandler =(WrappedComponent, axios) => {
             })
         };
         componentWillMount(){
-            axios.interceptors.request.use(reqConf => {
+            this.reqInterceptors = axios.interceptors.request.use(reqConf => {
                 this.setState({
                     error : null
                 });
@@ -26,11 +26,15 @@ const withErrorHandler =(WrappedComponent, axios) => {
                     error : error
                 })
             });
-            axios.interceptors.response.use(resConf => resConf, error => {
+            this.resInterceptors= axios.interceptors.response.use(resConf => resConf, error => {
                 this.setState({
                     error: error
                 })
             });
+        }
+        componentWillUnmount(){
+            axios.interceptors.request.eject(this.reqInterceptors);
+            axios.interceptors.response.eject(this.resInterceptors);
         }
         render(){
             return(
