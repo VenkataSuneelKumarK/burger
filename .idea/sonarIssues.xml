@@ -298,6 +298,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.module.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/index.css">
           <value>
             <set />
