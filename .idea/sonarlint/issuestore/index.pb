@@ -76,3 +76,19 @@ $src/components/UI/Spinner/Spinner.js,9/b/9b168205d60b57142f96616491c2c461605e5
 src/axios.js,c/c/cc8cca65f47d3eff0bce53fd6976a6794b8cf615
 \
 ,src/HOC/WithErrorHandler/WithErrorHandler.js,d/d/ddb855ebe4a1450bfa6b3dfd169f609a712c2dca
+[
++src/containers/Checkout/Checkout.module.css,6/e/6eda31f6135c05382f9de2e7c048a4b3727ec3e9
+o
+?src/components/Order/CheckoutSummary/CheckoutSummary.module.css,a/1/a13a6bd737b8a3e97d74cd58a6318bcfaa99e24b
+<
+src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
+g
+7src/components/Order/CheckoutSummary/CheckoutSummary.js,d/a/da8889ed8f6557cd79b333a64c3a6f78c985cc65
+S
+#src/containers/Checkout/Checkout.js,0/8/08ab5a739f0d24d2230cbe8965ec16d13e1670ce
+j
+:src/containers/Checkout/ContactData/ContactData.module.css,1/e/1eec5baffc1c8975bffd251f12027ca489c5af20
+b
+2src/containers/Checkout/ContactData/ContactData.js,b/a/ba0325111b633539da83a9dc9d1a720896978224
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
